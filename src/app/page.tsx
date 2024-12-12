@@ -163,7 +163,7 @@ export default function Home() {
               Seasonal:
               <select value={seasonal} onChange={(e) => setSeasonal(e.target.value)}>
                 <option value="none">None</option>
-                <option value="seasonal">Seasonal Discount</option>
+                <option value="seasonal">Special campaigns</option>
               </select>
             </label>
           </div>
